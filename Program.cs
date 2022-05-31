@@ -1,4 +1,3 @@
-using System.Net;
 
 namespace CustomURL01
 {
@@ -22,7 +21,7 @@ namespace CustomURL01
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+           // app.UseHttpsRedirection();
 
             app.UseRequestURL();
 
