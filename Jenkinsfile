@@ -15,7 +15,7 @@ pipeline {
        
         stage('Build'){
            steps{
-               sh 'dotnet build'
+               sh '/home/ubuntu/dotnetcoresdk/.dotnet/dotnet build CustomURL02.sln'
             }
          }
        
