@@ -35,7 +35,7 @@ namespace CustomURL01
 
                 if (dtOp.InitializeDB(dbname))
                 {
-                    //dtOp.DeleteOldTable(dbname, TableName);
+                    //dtOp.DeleteOldTable(dbname, TableName);    d
 
                     dtOp.CreateNewTableIfNotExist(dbname, TableName);
 
