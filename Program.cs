@@ -7,7 +7,7 @@ namespace CustomURL01
         {   
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            // Add services to the container.   ok
             builder.Services.AddRazorPages();
             
             var app = builder.Build();
